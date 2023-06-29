@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "outDir": "./dist/js",
+        "sourceMap": true
+    },
+    "include": ["./src/ts/*.ts"],
+    "extends": "@tsconfig/recommended/tsconfig.json"
+}
